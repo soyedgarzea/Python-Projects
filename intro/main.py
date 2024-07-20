@@ -11,13 +11,13 @@ age = 30
 
 print(f'Hi, {name}. You are {age} years old')
 print('Hi, {1}. You are {0} years old'.format(name, age))
-print('Hi, {name}. You are {age} years old'.format(name = 'Arturo', age = 29))
+print('Hi, {name}. You are {age} years old'.format(name='Arturo', age=29))
 
 string = '0123456789'
-print(string[0]) # -> start
-print(string[0:2]) # -> end
-print(string[0:8:2]) # -> jumps
-print(string[::-1]) # -> reverse
+print(string[0])  # -> start
+print(string[0:2])  # -> end
+print(string[0:8:2])  # -> jumps
+print(string[::-1])  # -> reverse
 
 # string[0] = '5' # -> Error
 
@@ -30,7 +30,7 @@ quote.replace('me', 'you')
 
 print(quote)
 
-birthday = input('What year were you born? ');
+birthday = input('What year were you born? ')
 age = 2024 - int(birthday)
 
 print(f'You\'re {age} years old')

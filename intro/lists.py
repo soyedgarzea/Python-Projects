@@ -1,10 +1,10 @@
 amazon_cart = ['books', 'magazines', 'clothes']
-print(amazon_cart[0::2]);
+print(amazon_cart[0::2])
 
 amazon_cart[0] = 'laptops'
 print(amazon_cart)
 
-new_cart = amazon_cart[1:3] # Avoid passing by reference
+new_cart = amazon_cart[1:3]  # Avoid passing by reference
 print(new_cart)
 
 # Adding
@@ -55,12 +55,12 @@ print(list_9.count('a'))
 
 # sort
 list_10 = [1, 20, 3, 4, 5]
-list_10.sort() # Modifies list
+list_10.sort()  # Modifies list
 print(list_10)
 
 # sorted
 list_11 = [1, 20, 3, 4, 5]
-print(sorted(list_11)) # Returns a new list
+print(sorted(list_11))  # Returns a new list
 
 # copy
 list_12 = [1, 2, 3]
@@ -89,5 +89,5 @@ new_sentence = sentence.join(['hi', 'Edgar'])
 print(new_sentence)
 
 # list unpacking
-a,b,c, *d, e = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(a,b,c,d, e)
+a, b, c, *d, e = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(a, b, c, d, e)
