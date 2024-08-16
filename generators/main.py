@@ -20,7 +20,7 @@ def fib(number: int) -> Generator[Literal[0, 1], Any, None]:
     a = 0
     b = 1
 
-    for _ in range(number):  # type: ignore
+    for _ in range(number):
         yield a  # type: ignore
         temp = a # 0 1 1 2 3
         a = b # 1 1 2 3 5

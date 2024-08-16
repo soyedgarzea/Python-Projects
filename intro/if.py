@@ -2,17 +2,17 @@ is_old = True
 is_licensed = True
 
 if is_old:
-  print("You are old enough to drive")
+    print("You are old enough to drive")
 elif is_licensed:
-  print("You can drive")
+    print("You can drive")
 else:
-  print("You are not old enough to drive")
+    print("You are not old enough to drive")
 
 if is_old and is_licensed:
-  print("You can drive")
+    print("You can drive")
 
 if is_old or is_licensed:
-  print("You can drive")
+    print("You can drive")
 
 
 # Ternary

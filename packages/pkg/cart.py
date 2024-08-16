@@ -1,4 +1,10 @@
-def cart(): # type: ignore
-    cart = []  # type: ignore
-    cart.append(1)  # type: ignore
-    return cart  # type: ignore
+def cart() -> list[int]:
+    '''
+    cart
+
+    Returns:
+        list[int]
+    '''
+    cart1: list[int] = []
+    cart1.append(1)
+    return cart1

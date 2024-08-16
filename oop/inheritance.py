@@ -1,9 +1,19 @@
 class User():
-    def __init__(self, name: str):
+    '''
+    User
+    '''
+    def __init__(self, name: str) -> None:
         self.name = name
 
 class Wizard(User):
-    def __init__(self, name: str, power: int):
+    '''
+    Wizard
+
+    Args:
+        User (User)
+    '''
+
+    def __init__(self, name: str, power: int) -> None:
         super().__init__(name)
         self.power = power
 

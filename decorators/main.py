@@ -1,7 +1,17 @@
 from time import time
+from types import FunctionType
 
 
-def my_decorator(func):  # type: ignore
+def my_decorator(func: FunctionType):
+    '''
+    my_decorator
+
+    Args:
+        func ():
+
+    Returns:
+        FunctionType:
+    '''
     def wrapper():
         print('**********')
         func()
@@ -9,8 +19,8 @@ def my_decorator(func):  # type: ignore
     return wrapper
 
 
-@my_decorator
-def hello():
+@my_decorator # type: ignore
+def hello() -> None:
     print('Jello')
 
 
